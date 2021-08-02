@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI Hello I'm Matrix VC Bot I can play music in your group's voice chat [🎵](https://telegra.ph/file/73d737b83d58322eda419.jpg") 
+\nI Hello I'm THC Music Hub I can play music in your group's voice chat [🎵](https://telegra.ph/file/18b919907ce33599aa30f.jpg") 
 I'm here for Entertain you.
 \nTo add me in your group please contact my master at Support Group.
 \nHit /help list of available commands.
@@ -22,18 +22,18 @@ I'm here for Entertain you.
             [
                 [
                     InlineKeyboardButton(
-                        "🤴My Master", url="https://t.me/The_Ghost_Hunter",
+                        "🤴My Master", url="https://t.me/priyanshuthehacker",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/helpcenterbot1"
+                        "💬 Group", url="https://t.me/"
                     ),
                     InlineKeyboardButton(
-                        "🔊 My Channel", url="https://t.me/fire_world_entertainment"
+                        "🔊 My Channel", url="https://t.me/Thc27"
                     ),
                     InlineKeyboardButton(
-                        "📚 Loges", url="https://t.me/helpcenterbotloges"
+                        "🗨️ Discussion Group", url="https://t.me/thc27discussion"
                     ),
                 ],
                 [
@@ -44,7 +44,7 @@ I'm here for Entertain you.
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/Matrix_Vcbot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/THCMusicHub_vcbot?startgroup=true"
                     ) 
                 ]
             ]
@@ -63,7 +63,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/fire_world_entertainment"
+                        "🔊 Channel", url="https://t.me/thc27discussion"
                     )
                 ],    
                 [    
@@ -109,7 +109,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/fire_world_entertainment"
+                        "🔊 Channel", url="https://t.me/thc27discussion"
                     )
                 ]
             ]
